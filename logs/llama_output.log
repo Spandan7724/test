@@ -1,0 +1,51 @@
+2024-11-21 04:04:24,086 - ERROR - An error occurred during search: 'OllamaAPI' object has no attribute 'generate'
+Traceback (most recent call last):
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 76, in search_and_improve
+    formulated_query, time_range = self.formulate_query(
+                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 223, in formulate_query
+    response_text = self.llm.generate(
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'OllamaAPI' object has no attribute 'generate'
+2024-11-21 04:04:24,090 - ERROR - An error occurred during search: 'OllamaAPI' object has no attribute 'generate'
+Traceback (most recent call last):
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 76, in search_and_improve
+    formulated_query, time_range = self.formulate_query(
+                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 223, in formulate_query
+    response_text = self.llm.generate(
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'OllamaAPI' object has no attribute 'generate'
+2024-11-21 04:04:24,090 - ERROR - An error occurred during search: 'OllamaAPI' object has no attribute 'generate'
+Traceback (most recent call last):
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 76, in search_and_improve
+    formulated_query, time_range = self.formulate_query(
+                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 223, in formulate_query
+    response_text = self.llm.generate(
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'OllamaAPI' object has no attribute 'generate'
+2024-11-21 04:04:24,092 - ERROR - An error occurred during search: 'OllamaAPI' object has no attribute 'generate'
+Traceback (most recent call last):
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 76, in search_and_improve
+    formulated_query, time_range = self.formulate_query(
+                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 223, in formulate_query
+    response_text = self.llm.generate(
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'OllamaAPI' object has no attribute 'generate'
+2024-11-21 04:04:24,092 - ERROR - An error occurred during search: 'OllamaAPI' object has no attribute 'generate'
+Traceback (most recent call last):
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 76, in search_and_improve
+    formulated_query, time_range = self.formulate_query(
+                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 223, in formulate_query
+    response_text = self.llm.generate(
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'OllamaAPI' object has no attribute 'generate'
+2024-11-21 04:04:24,092 - ERROR - Error in synthesize_final_answer: 'OllamaAPI' object has no attribute 'generate'
+Traceback (most recent call last):
+  File "C:\Users\91898\Code\web-llm-assistant\self_improving_search.py", line 464, in synthesize_final_answer
+    response_text = self.llm.generate(prompt, max_tokens=self.llm_config.get(
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'OllamaAPI' object has no attribute 'generate'
